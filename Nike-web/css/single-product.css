@@ -1,0 +1,141 @@
+.main-content {
+    width: 80%;
+    margin: 3rem auto;
+    margin-top: 8rem;
+}
+
+
+#left-content, #right-content{
+    display: inline-block;
+}
+
+#left-content{
+    width: 60%;
+    margin-left: 6rem;
+}
+#right-content{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 60rem;
+    float: right;
+}
+
+.main-content-img{
+    height: 62rem;
+    width: 75%;
+    margin-left: 2rem;
+    float: left;
+    overflow: hidden;
+}
+.sub-content-img, .main-content-img {
+    display: inline-block;
+}
+.sub-content-img{
+    width: 10rem;
+    float: left;
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.sub-content-img-item{
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(216, 216, 216, 0.2);
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.sub-content-img-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.sub-content-img-item:hover {
+    border: 1px solid black;
+    opacity: 0.9;
+}
+
+
+.main-content-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.details-title{
+    font-size: 2.4rem;
+}
+.details-content{
+    font-size: 1.8rem;
+}
+.cart-items-money{
+    font-size: 2.2rem;
+    margin-top: 1.4rem;
+    margin-bottom: 3.6rem;
+}
+.form-group{
+    font-size: 1.8rem;
+}
+.form-heading{
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#form-1 input[type="button"] {
+
+    border: 1px solid #cacaca;
+    border-radius: 2px;
+    padding: auto;
+    color: black;
+    font-size: 2rem;
+    line-height: 5.4rem;
+}
+
+.grid-layout-3col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 0 auto;
+}
+
+.add-bag-btn, .unfavorite-btn{
+    width: 100%;
+    height: 6.4rem;
+    font-size: 2rem !important;
+    line-height: 6.4rem;
+    margin-top: 1.6rem;
+}
+.add-bag-btn{
+    background-color: #111 !important;
+    color: white !important;
+}
+.add-bag-btn:hover{
+    background-color: #4e4e4e !important;
+}
+.unfavorite-btn{
+    background-color: white !important;
+    color: #111 !important;
+    border: 1px solid #cacaca;
+}
+.unfavorite-btn:hover{
+    border: 1px solid #000000;
+}
+
+.cart-items-action i{
+    font-size: 2.4rem;
+}
+.unselected {
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.select-group input:hover{
+    border: 1px solid black !important;
+}
+
+.btn-checked {
+    border: 1px solid black !important;
+}
+

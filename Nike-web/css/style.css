@@ -1,0 +1,487 @@
+@font-face {
+    font-family: 'Nike Futura';
+    src: url('../fonts/Nike-Font/Futura\ Condensed\ Extra\ Bold.otf') format('truetype');
+}
+
+body {
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: fit-content;
+    padding-top: 13rem;
+}
+
+#main {
+    margin: 0 48px;
+    min-height: 40rem;
+}
+
+header {
+    background-color: #ffffff;
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.top-header {
+    height: 4rem;
+    margin: 0 48px;
+    font-size: 1.2rem;
+}
+#right-top-header, #right-top-header li{
+    display: inline-block;
+    line-height: 4rem;
+}
+.top-header a svg, #logo-nike {
+    fill: #000000;
+}
+.top-header a:hover svg, #logo-nike:hover {
+    fill: #757575;
+    transition: fill .1s;
+}
+.top-header li:hover{
+    color: #757575;
+}
+#right-top-header li{
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+#right-top-header{
+    float: right;
+    clear: both;
+}
+
+.header-nav {
+    display: flex;
+    position: relative;
+    background-color: #ffffff;
+    margin: 0 48px;
+}
+
+marquee{
+    height: 6rem;
+    background-color: rgb(223, 223, 223);
+    vertical-align: middle;
+}
+marquee div {
+    height: 100%;
+    line-height: 6rem;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#logo {
+    width: 6%;
+    float: left;
+}
+
+#logo svg {
+    transform: scale(1.25);
+}
+
+nav {
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+    margin: 2px 0;
+}
+
+.nav-item {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 14px;
+    font-size: 1.6rem;
+}
+
+#action-btn {
+    width: 6%;
+    float: right;
+    line-height: 60px;
+}
+
+.search-input-box {
+    position: absolute;
+    width: 13%;
+    top: 0;
+    left: 80%;
+    background-color: rgb(243, 243, 243);
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    border-radius: 60px;
+    padding-left: 8px;
+}
+
+.search-input-box i {
+    font-size: 1.8rem;
+}
+
+.search-input-box input {
+    font-size: 1.6rem;
+    font-weight: lighter;
+    margin-left: 5px;
+}
+
+.search-input-box input::placeholder {
+    font-size: 1.6rem;
+    color: rgb(215, 215, 215);
+}
+
+
+
+figure {
+    /* text-align: center; */
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+    color: #ffffff;
+}
+
+figcaption h3 {
+    font-size: 6.6rem;
+    line-height: 0.9;
+    text-transform: uppercase;
+    font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+#main button {
+    border-radius: 60px;
+    line-height: 3.2rem;
+    font-size: 1.7rem;
+    padding: 5px 2rem;
+    background-color: white;
+    color: #757575;
+}
+
+#main button:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+#pegasus-btn {
+    background-color: white !important;
+    color: #757575 !important;
+}
+
+#pegasus-btn:hover {
+    background-color: rgb(222, 222, 222) !important;
+}
+
+.content-grow {
+    margin-top: 8.4rem;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
+
+}
+
+.items {
+    position: relative;
+}
+
+.items img {
+    height: 100%;
+}
+
+.pegasus-types-btn {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 85%;
+    margin-left: 5rem;
+}
+
+.title {
+    font-size: 2.4rem;
+    padding: 1.8rem 0;
+}
+
+.menu-box {
+    padding: 0 24rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 12px;
+    font-size: 1.6rem;
+    margin-top: 8rem;
+}
+
+.list-menu-item {
+    display: inline-block;
+    text-align: left;
+    line-height: 3.6rem;
+    padding: 0 1.2rem;
+}
+
+.list-menu-item h5 {
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+.list-menu-item ul {
+    margin-top: 1rem;
+    color: #757575;
+}
+
+.list-menu-item a:hover {
+    color: #111;
+}
+
+footer {
+    margin-top: 8rem;
+    background: #111;
+    padding: 4rem 8rem 0 8rem;
+    font-size: 1.2rem;
+    color: #7e7e7e;
+    position: relative;
+    clear: both;
+}
+
+#main-footer {
+    height: 20rem;
+}
+
+.footer-column {
+    display: inline-block;
+    width: 17%;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 3rem;
+}
+
+.footer-column h5 {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 800;
+}
+
+#contact-nike {
+    float: right;
+    text-align: right;
+}
+
+#contact-nike ul {
+    padding: auto;
+}
+
+.social-link-icon {
+    fill: #7e7e7e;
+    transition: fill .2s;
+    margin: 0 0.8rem;
+}
+
+.social-link-list {
+    display: inline-block;
+}
+
+.item-sub-footer {
+    display: inline-block;
+}
+
+.item-sub-footer h5,
+.item-sub-footer p,
+.item-sub-footer li {
+    display: inline-block;
+}
+
+.left-sub-footer {
+    float: left;
+}
+
+.right-sub-footer {
+    float: right;
+}
+
+footer h5 {
+    color: white;
+}
+
+#footer-links {
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+
+}
+
+
+.social-link-icon:hover {
+    fill: #ffffff;
+    transition: fill .2s;
+}
+
+.right-sub-footer li {
+    padding: 0 1.2rem;
+}
+
+
+#sub-footer {
+    margin-top: 3rem;
+}
+
+.footer-title {
+    font-weight: 800;
+    color: white;
+}
+
+.list-item-right-subfooter {
+    padding: 0 1.2rem;
+    line-height: 4rem;
+    /*(1)*/
+}
+
+.guides-dropdown-menu-box {
+    position: absolute;
+    bottom: 4rem;
+    /*(1)*/
+    left: 50%;
+    display: none;
+}
+
+#guides-footer:hover .guides-dropdown-menu-box {
+    display: block;
+}
+
+#table-guides {
+    display: block;
+    padding-inline-start: 0;
+    line-height: 2.8rem;
+    padding: 2rem 2.8rem 2rem 0;
+    border: 2px solid #ffffff;
+    width: 90%;
+}
+
+#table-guides li {
+    display: inline-block;
+    width: 21rem;
+}
+
+/* sub-nav on the top */
+.sub-nav-title::before{
+    content: "";
+    display: block;
+    cursor: default;
+    padding-top: 1.2rem;
+}
+.blur-screen {
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    background-color: #757575;
+    background-color: hsla(0, 0%, 7%, .36);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    position: fixed;
+    display: block;
+    visibility: hidden;
+    
+}
+.sub-nav-box li {
+    opacity: 0;
+    transform: translateY(-50%) scaleY(0);
+    transition: transform 0.1ms, opacity 0ms;
+}
+.sub-nav-box {
+    position: absolute;
+    z-index: 9;
+    left: -48px;
+    width: calc(100% + 96px);
+    padding: 1.6rem 4rem 5rem 4rem;
+    background-color: #ffffff;
+    margin-top: 2px;
+    cursor: default;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-50%) scaleY(0);
+    transition: transform 0.25s ease,opacity 0ms,visibility 0ms;
+}
+
+
+.nav-item:hover {
+    border-bottom: 2px solid #111 !important;
+}
+
+.nav-item:hover .sub-nav-box {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0) scaleY(1);
+    transition: transform 0.35s ease,opacity 0ms linear 0.1s,visibility 0.3s linear 0.1s;
+}
+.nav-item:hover .sub-nav-box li {
+    opacity: 1;
+    transform: translateY(0) scaleY(1);
+    transition: transform 0.15s ease 0.2s, opacity 0.5s ease 0.2s;
+}
+
+.sub-nav-item li:hover a {
+    color: #111;
+}
+
+
+.sub-nav .sub-nav-item {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.sub-nav .sub-nav-item ul {
+    text-align: left;
+    line-height: 3;
+}
+
+.sub-nav .sub-nav-item li {
+    cursor: pointer !important;
+    text-align: left;
+    color: #757575;
+    font-size: 1.4rem;
+    width: 21rem;
+    line-height: 1.8;
+}
+
+.items-favorite{
+    width: 100%;
+    min-height: 15rem;
+    vertical-align: middle;
+} 
+.items-favorite h3{
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 5rem;
+}
+
+.contact-item{
+    text-align: center;
+    margin-top: 3rem;
+}
+.contact-item img{
+    height: 8rem;
+}
+
+#about-us{
+    width: 50%;
+    margin: 3rem auto;
+    color: #232323;
+    font-size: 2rem;
+    font-family: "Libre Baskerville",georgia,serif;
+}
+#about-us p{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}

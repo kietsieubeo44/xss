@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Nike Futura';
+    src: url('../fonts/Nike-Font/Futura\ Condensed\ Extra\ Bold.otf') format('truetype');
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: fit-content;
+}
+#content{
+    margin: 4rem auto;
+}
+.carts {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 0 auto;
+}
+.cart-items {
+    margin-left: 30px;
+    display: inline-block;
+    background-color: white;
+    transition: transform 0s;
+    margin-bottom: 2rem;
+}
+
+.cart-items-img img{
+    height: 90%;
+}
+
+.cart-items-money{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.details-describe, .details-options{
+    color: rgb(117, 117, 117);
+    text-overflow: ellipsis;
+}
+
+.cart-items:hover{
+    transform: scale(1.05);
+    box-shadow: 1px 1px 1px #888888;
+    transition: transform 0.3s ease;
+}
+
+.cart-items-money, .cart-items-action{
+    display: inline-block;
+}
+
+.cart-items-action{
+    float: right;
+    margin-top: 1.3rem;
+    margin-right: 1.4rem;
+}
+
+.prices{
+    font-size: 1.9rem;
+}

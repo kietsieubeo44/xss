@@ -1,0 +1,137 @@
+
+#main , #main-content{
+    margin: 1rem 8rem;
+}
+
+.content-grow{
+    margin-top: 0;
+}
+
+
+#left-content, #right-content{
+    display: inline-block;
+}
+
+#left-content{
+    width: 65%;
+    padding: 0 1rem;
+}
+
+#right-content{
+    width: 33%;
+    vertical-align: top;
+    margin-right: 1rem;
+}
+
+.line-seperate{
+    width: 100%;
+    height: 1px;
+    margin-top: 1em;
+    margin-bottom: 3rem;
+    border: 0;
+    background-color: #cccc;
+}
+
+.bag-items-img, .bag-items-infomation, .bag-items-money{
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+}
+.bag-items-infomation{
+    margin-left: 3rem;
+}
+
+.bag-items-img{
+    width: 15rem;
+    height: 15rem;
+}
+.bag-items-money{
+    float: right;
+}
+
+.details-describe, .details-options{
+    color: rgb(117, 117, 117);
+    text-overflow: ellipsis;
+}
+
+.details-options select{
+    margin-left: 0.5rem;
+}
+
+.select-line {
+    position: relative;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+.select-line select{
+     width: 4rem;
+     border: 1px solid #cccc;
+     background-color: transparent;
+     position: relative;
+     z-index: 9;
+     padding-left: 0.5rem;
+}
+
+
+.select-line i {
+    position: absolute;
+    color: #2a292975;
+    font-size: 1.2rem;
+    right: 0.5rem;
+    line-height: 2.4rem;
+    z-index: 1;
+}
+
+
+.clear-bag-items{
+    margin-top: 2rem;
+}
+.clear-bag-items i{
+    font-size: 2.3rem;
+}
+.clear-bag-items button{
+    width: 35px;
+    height: 35px;
+    padding: 0 !important;
+    border-radius: 50%;
+    margin-left: 2rem;
+    
+}
+
+
+#summary-box{
+    font-size: 1.7rem;
+    padding-left: 2rem;
+}
+
+.summary-box-money-items{
+    float: right;
+    vertical-align: top;
+}
+
+.summary-box-line{
+    margin-bottom: 1rem;
+}   
+
+#no-items{
+    font-weight: normal;
+    text-align: center;
+    color: #4a4a4acc;
+}
+
+#checkout-btn{
+    background-color: #111 !important;
+    color: white !important;
+    width: 100%;
+    height: 6rem;
+    margin-top: 2rem;
+}
+
+.disabled{
+    pointer-events: none;
+    cursor: default;
+}
+
+#checkout-btn:hover{
+    background-color: #505050 !important;
+}

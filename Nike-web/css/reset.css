@@ -1,0 +1,51 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%; /* set 1rem to 10px */
+  }
+  
+  body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: sans-serif;
+  }
+  
+  /* Remove default list styles */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove default hyperlink styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Remove default button styles */
+  button, input[type="button"], input[type="submit"] {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  /* Remove default form field styles */
+  input[type="text"], input[type="password"], textarea, select {
+    font-size: inherit;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    background: transparent;
+    appearance: none;
+  }
+  
+  /* Set a default max-width for images and other media */
+  img, video, iframe, embed {
+    max-width: 100%;
+    height: auto;
+  }
